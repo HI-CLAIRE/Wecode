@@ -1,0 +1,30 @@
+.survey-container {
+  width: 200px;
+  margin: 100px auto;
+}
+input, textarea {
+  width: 100%;
+  font-size: 13px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 7px 12px;
+  resize: none;
+}
+
+input {
+  color: red;
+}
+
+button {
+  color: white;
+  font-size: 15px;
+  background-color: #4CAF50;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;  
+  opacity: 0.8;
+}
