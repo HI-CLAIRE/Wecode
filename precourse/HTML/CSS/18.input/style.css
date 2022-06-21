@@ -12,7 +12,11 @@ input, textarea {
   resize: none;
 }
 
-input {
+input:hover, textarea:hover {
+  color: #4CAF50;
+}
+
+input[type="text"]::placeholder {
   color: red;
 }
 
