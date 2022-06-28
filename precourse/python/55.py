@@ -7,6 +7,7 @@ class Database:
     def insert(self, field, value):
       if self.size > len(self.dictionary):
         self.dictionary[field] = value
+        self.dictionary = {field : value}
       else:
         return
 
